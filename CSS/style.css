@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 100vw;
+    height: 105vh;
+    background-image: linear-gradient(#fff, #181818);
+}
+
+header{
+    height: 90px;
+    width: 280px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.icon-raul{
+    position: relative;
+    top: 5px;
+}
+h1{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    font-family: 'Henny Penny', cursive;
+    font-size: 2.3em;
+}
+
+.card{
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    background-color: #ccc;
+    padding: 25px 25px 0 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #222;
+    margin-bottom: 10px;
+}
+
+#imagem-musica{
+    width: 100%;
+    
+}
+
+#range{
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+.duracao{
+    height: 10px;
+}
+
+.tempo-inicial{
+    text-align: left;
+    left: 2px;
+    position: relative;
+    bottom: 10px;
+}
+
+.tempo-final{
+    text-align: right;
+    right: 2px;
+    position: relative;
+    bottom: 25px;
+}
+
+.botao-play{
+    cursor: pointer;
+}
+
+.botao-pause{
+    display: none;
+    cursor: pointer;
+}
+
+h2, p, footer{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+h2{
+    margin: 18px 0;
+    text-align: center;
+}
+
+p{
+    height: 15px;
+}
+
+.controles{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.botao-proximo, .botao-anterior{
+    position: relative;
+    bottom: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    color: #f1f0f0;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+span{
+    position: relative;
+    bottom: 5px;
+}

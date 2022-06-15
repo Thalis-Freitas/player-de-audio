@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./arquivos/imagens/icone-raul.png">
+    <title>Player Raul</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img class="icon-raul" src="./arquivos/imagens/icone-raul.png" height="80px">
+        <h1>Toca Raul</h1>
+    </header>
+
+    <main>
+        <div class="card">
+            <img id="imagem-musica" src="./arquivos/imagens/1 - loteria da babilônia.jpg">
+            <h2 id="nome-musica">Loteria da Babilônia</h2>
+            <div class="tempo">
+
+                <input id="range" type="range" min="0" max="100" value="0">
+
+                <div class="duracao">
+                    <p class="tempo-inicial">0:00</p>
+                    <p id="tempo-duracao" class="tempo-final">0:00</p>
+                </div>
+            </div>
+            <div class="controles">
+                <img class="botao-anterior" src="./arquivos/imagens/botões/anterior.png" height="50px">
+                <img class="botao-play" src="./arquivos/imagens/botões/play.png" height="60px">
+                <img class="botao-pause" src="./arquivos/imagens/botões/pause.png" height="60px">
+                <img class="botao-proximo" src="./arquivos/imagens/botões/próximo.png" height="50px">
+            </div>
+            <audio src="./arquivos/audios/1 - Loteria da Babilonia.mp3"></audio>
+        </div>
+    </main>
+    <footer><a href="https://github.com/Thalis-Freitas" target="_blank"><img
+                src="./arquivos/imagens/icons8-github-24.png" alt="github">
+            <span> Desenvolvido por: <b>Thalis Freitas </b> </span> </a>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
